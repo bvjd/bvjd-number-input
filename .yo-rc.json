@@ -1,0 +1,9 @@
+{
+  "generator-donejs": {
+    "promptValues": {
+      "authorName": "Jose David Barboza Vargas",
+      "authorEmail": "bvjd91@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
