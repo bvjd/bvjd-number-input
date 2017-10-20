@@ -1,9 +1,10 @@
 import QUnit from 'steal-qunit';
-import plugin from './bvjd-number-input';
+import { ViewModel } from './bvjd-number-input';
 
+// ViewModel unit tests
 QUnit.module('bvjd-number-input');
 
-QUnit.test('Initialized the plugin', function(){
-  QUnit.equal(typeof plugin, 'function');
-  QUnit.equal(plugin(), 'This is the bvjd-number-input plugin');
+QUnit.test('Has message', function(){
+  var vm = new ViewModel();
+  QUnit.equal(vm.message, 'This is the bvjd-number-input component');
 });

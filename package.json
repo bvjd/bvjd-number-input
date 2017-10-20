@@ -23,7 +23,7 @@
     "release:minor": "npm version minor && npm publish",
     "release:major": "npm version major && npm publish",
     "build": "node build.js",
-    "develop": "done-serve --static --develop --port 8080"
+    "develop": "done-serve --static --develop --port 9999"
   },
   "main": "dist/cjs/bvjd-number-input",
   "browser": {
@@ -60,10 +60,12 @@
     }
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "can-component": "^3.0.7",
     "can-define": "^1.0.17",
     "can-stache": "^3.0.20",
     "can-view-autorender": "^3.0.4",
+    "can-view-import": "^3.2.2",
     "cssify": "^0.6.0",
     "steal-less": "^1.2.0",
     "steal-stache": "^3.0.5"
